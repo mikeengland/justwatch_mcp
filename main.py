@@ -27,7 +27,7 @@ def justwatch_get_movie_details(
 @mcp.tool()
 def justwatch_get_offers_for_country(
     entity_id: str, country: str, language: str = "en", best_only: bool = True
-) ->  dict[str, list[Offer]]:
+) -> dict[str, list[Offer]]:
     """Get offers for a given country using JustWatch"""
     return offers_for_countries(entity_id, {country}, language, best_only)
 

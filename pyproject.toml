@@ -1,0 +1,11 @@
+[project]
+name = "justwatch-mcp"
+version = "0.1.0"
+description = "MCP server wrapping the Electronic Mango simple-justwatch-python-api"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp",
+    "ruff>=0.11.7",
+    "simple-justwatch-python-api",
+]
